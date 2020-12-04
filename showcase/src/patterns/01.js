@@ -158,7 +158,7 @@ const CountTotal = ({ countTotal }) => {
 }
 
 /* 
-  Usage
+  Usage 
   */
 
 const Usage = () => {
