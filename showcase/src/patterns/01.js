@@ -135,10 +135,11 @@ const MediumClap = ({ animationTimeline }) => {
   Sub-components: ClapIcon, ClapCount, CountTotal
 */
 
-const ClapIcon = (isClicked) => {
+const ClapIcon = ({ isClicked }) => {
   return (
     <span>
       <svg
+        id='clapIcon'
         xmlns='http://www.w3.org/2000/svg'
         viewBox='-549 338 100.1 125'
         className={`${styles.icon} ${isClicked && styles.checked}`}
