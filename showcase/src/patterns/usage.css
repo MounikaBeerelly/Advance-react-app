@@ -13,6 +13,7 @@
  /* clap */ 
 .clap {
     border: 1px solid #896EAF; 
+    padding: 10px;
 }
 .clap:hover {
     border: 1px solid #896EAF; 
